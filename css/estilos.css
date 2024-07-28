@@ -1,0 +1,221 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+h1 {font-size: 2.0em;}
+h1 {border: solid 2px #4cadaf}
+em {color: rgb(4, 202, 202);}
+strong { color: brown;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+li{ flex-grow: 1;}
+a{ display: block;
+    padding: 1em;
+    background-color: #ffcc7f;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {background-color: rgb(43, 159, 226)}
+
+table {
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.08em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: blueviolet;
+}
+
+th , td {
+    padding: 0.5em;
+    border-bottom-width: solid;
+    border-bottom-color:#333 ;
+}
+
+th{
+    background-color: #ffcc7f;
+}
+td{
+    background-color: rgb(250, 235, 217);
+}
+
+/*PAGINA DE BIENVENIDA*/ 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #25736b;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+section h2 {
+    color: #1a7a6d;
+}
+
+
+
+/*Mi primera pagina ESTILOS*/ 
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #4cadaf;
+    color: white;
+}
+
+footer {
+    background-color: #272a2b; 
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #eeba59f7;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #a9e5e5;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles {
+    width: 70%;
+}
+
+.articles article {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.article-img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex-grow: 1;
+}
+
+aside {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(116, 186, 190);
+}
+
+aside h2 {
+    background-color: #790e72; 
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/*IMAGENES FLEX*/
+
+/* Estilo del contenedor de la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #3f9ca6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de cada imagen dentro de la galería */
+.galeria .imagen {
+    flex: 1 1 calc(25% - 20px); /* Ajusta el tamaño de las imágenes */
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.galeria .imagen img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}    
+
+
